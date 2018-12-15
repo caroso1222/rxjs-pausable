@@ -1,8 +1,13 @@
 {
   "name": "rxjs-pausable",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0",
   "description": "A RxJS pipable operator to pause and resume streams",
-  "keywords": ["rxjs", "operator", "pausable", "angular"],
+  "keywords": [
+    "rxjs",
+    "operator",
+    "pausable",
+    "angular"
+  ],
   "main": "dist/rxjs-pausable.umd.js",
   "module": "dist/lib/rxjs-pausable.js",
   "typings": "dist/types/rxjs-pausable.d.ts",
