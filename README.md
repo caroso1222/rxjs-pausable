@@ -2,7 +2,7 @@
 
 RxJS pipeable operator to pause and resume streams. See motivation and in-depth explanation [in this blog post](https://stackblitz.com/edit/rxjs-confetti).
 
-Play with [the demo in stackblitz](//demo).
+Play with [the demo in stackblitz](https://medium.com/@caroso1222/how-to-create-a-pausable-rxjs-observable-24550123e7a6).
 
 ![2018-12-15 18 26 09](https://user-images.githubusercontent.com/3689856/50048321-f3fc3f80-0096-11e9-9739-149a4e035f37.gif)
 
