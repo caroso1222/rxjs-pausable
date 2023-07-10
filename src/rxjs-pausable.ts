@@ -3,13 +3,15 @@ import { switchMap, materialize, dematerialize } from 'rxjs/operators'
 
 export class PausableObservable<T> extends Observable<T> {
   private pauser: BehaviorSubject<boolean>
-
+  public paused: boolean
   pause() {
     this.pauser.next(true)
+    this.paused = true
   }
 
   resume() {
     this.pauser.next(false)
+    this.paused = false
   }
 }
 
